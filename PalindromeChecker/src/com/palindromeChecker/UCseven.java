@@ -6,7 +6,7 @@ public class UCseven {
 		String input = "radar";
 		// Create Deque
 		Deque<Character> deque = new ArrayDeque<>();
-		// Step 3: Insert characters into deque
+		// Insert characters into deque
 		for (int i = 0; i < input.length(); i++) {
 			deque.addLast(input.charAt(i));
 		}
