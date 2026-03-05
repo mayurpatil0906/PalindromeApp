@@ -22,11 +22,7 @@ public class UCseven {
 		}
 		// Display result
 		System.out.println("Input String: " + input);
-		if (isPalindrome) {
-			System.out.println("Result: It is a Palindrome ");
-		} else {
-			System.out.println("Result: It is NOT a Palindrome ");
-		}
+		System.out.println("Is Palindrome? : " + isPalindrome);
 	}
 }
 
