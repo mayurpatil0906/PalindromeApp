@@ -11,7 +11,7 @@ public class UCsix {
 			queue.add(ch);//add element
 		}
 		boolean isPalindrome=true;
-		for(int i=0;i<s.length();i++) {
+		while (!queue.isEmpty()) { {
 			char poppedfromQueue=queue.poll();//poped element from queue
 			char poppedfromStack=stack.pop();//popped element from Stack
 			if (poppedfromQueue!=poppedfromStack) { //compare popped elements
@@ -19,13 +19,8 @@ public class UCsix {
 				break;
 			}
 		}
-		System.out.println("Input String: " + s);
-
-        if (isPalindrome) {//check
-            System.out.println("Result: It is a Palindrome ");
-        } else {
-            System.out.println("Result: It is NOT a Palindrome ");
-        }
+		System.out.println("Input : " + input);
+        System.out.println("Is Palindrome? : " + isPalindrome);
 			
 		}
 }
