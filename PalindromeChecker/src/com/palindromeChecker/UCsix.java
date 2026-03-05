@@ -11,7 +11,7 @@ public class UCsix {
 			queue.add(ch);//add element
 		}
 		boolean isPalindrome=true;
-		while (!queue.isEmpty()) { {
+		while (!queue.isEmpty()) { 
 			char poppedfromQueue=queue.poll();//poped element from queue
 			char poppedfromStack=stack.pop();//popped element from Stack
 			if (poppedfromQueue!=poppedfromStack) { //compare popped elements
